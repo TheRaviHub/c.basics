@@ -1,3 +1,5 @@
+//prime number check using funnction
+
 #include <stdio.h>
 int  primeCheck (){
     int n;
