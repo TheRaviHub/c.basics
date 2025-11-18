@@ -7,16 +7,16 @@ int main(){
     printf (" Enter the no of column (m) = ");
     scanf ("%d",&n);
 
-    for ( int m = 0 ; m < 3 ; m++){
-        for ( int n = 0 ; n < 3 ; n++){
-            scanf("%d",&arr[m][n]);
+    for ( int i = 0 ; i < m ; i++){
+        for ( int j = 0 ; j < n ; j++){
+            scanf("%d",&arr[i][j]);
         }
         printf("\n");
     }
 
-    for ( int m = 0 ; m < 3 ; m++){
-        for ( int n = 0 ; n < 3 ; n++){
-            printf("%d ",arr[m][n]);
+    for ( int i = 0 ; i < m ; i++){
+        for ( int j = 0 ; j < n ; j++){
+            printf("%d ",arr[i][j]);
         }
         printf("\n");
     }
